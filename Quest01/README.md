@@ -1,55 +1,80 @@
 # Quest 01. HTML과 웹의 기초
 
 ## Introduction
-* HTML은 HyperText Markup Language의 약자로, 웹 브라우저에 내용을 표시하기 위한 가장 기본적인 언어입니다. 이번 퀘스트를 통해 HTML에 관한 기초적인 사항들을 알아볼 예정입니다.
+
+- HTML은 HyperText Markup Language의 약자로, 웹 브라우저에 내용을 표시하기 위한 가장 기본적인 언어입니다. 이번 퀘스트를 통해 HTML에 관한 기초적인 사항들을 알아볼 예정입니다.
 
 ## Topics
-* HTML의 역사
-  * HTML 4.01, XHTML 1.0, XHTML 1.1
-  * XHTML 2.0과 HTML5의 대립
-  * HTML5와 현재
-* 브라우저의 역사
-  * Mosaic와 Netscape
-  * Internet Explorer의 독점시대
-  * Firefox와 Chrome의 등장
-  * iOS Safari와 모바일 환경의 브라우저
-  * Edge와 Whale 등의 최근의 Chromium 계열 브라우저
-* HTML 문서의 구조
-  * `<html>`, `<head>`와 `<body>` 등의 HTML 문서의 기본 구조
-  * 시맨틱 엘리먼트
-  * 블록 엘리먼트와 인라인 엘리먼트의 차이
+
+- HTML의 역사
+  - HTML 4.01, XHTML 1.0, XHTML 1.1
+  - XHTML 2.0과 HTML5의 대립
+  - HTML5와 현재
+- 브라우저의 역사
+  - Mosaic와 Netscape
+  - Internet Explorer의 독점시대
+  - Firefox와 Chrome의 등장
+  - iOS Safari와 모바일 환경의 브라우저
+  - Edge와 Whale 등의 최근의 Chromium 계열 브라우저
+- HTML 문서의 구조
+  - `<html>`, `<head>`와 `<body>` 등의 HTML 문서의 기본 구조
+  - 시맨틱 엘리먼트
+  - 블록 엘리먼트와 인라인 엘리먼트의 차이
 
 ## Resources
-* [MDN - HTML](https://developer.mozilla.org/ko/docs/Web/HTML)
-* [HTML For Beginners](https://html.com/)
-* [History of the web browser](https://en.wikipedia.org/wiki/History_of_the_web_browser)
-* [History of HTML](https://en.wikipedia.org/wiki/HTML)
-* [StatCounter](https://gs.statcounter.com/)
+
+- [MDN - HTML](https://developer.mozilla.org/ko/docs/Web/HTML)
+- [HTML For Beginners](https://html.com/)
+- [History of the web browser](https://en.wikipedia.org/wiki/History_of_the_web_browser)
+- [History of HTML](https://en.wikipedia.org/wiki/HTML)
+- [StatCounter](https://gs.statcounter.com/)
 
 ## Checklist
-* HTML 표준의 역사는 어떻게 될까요?
-  * HTML 표준을 지키는 것은 왜 중요할까요?
-  * XHTML 2.0은 왜 세상에 나오지 못하게 되었을까요?
-  * HTML5 표준은 어떤 과정을 통해 정해질까요?
-* 브라우저의 역사는 어떻게 될까요?
-  * Internet Explorer가 브라우저 시장을 독점하면서 어떤 문제가 일어났고, 이 문제는 어떻게 해결되었을까요?
-  * 현재 시점에 브라우저별 점유율은 어떻게 될까요? 이 브라우저별 점유율을 알아보는 것은 왜 중요할까요?
-  * 브라우저 엔진(렌더링 엔진)이란 무엇일까요? 어떤 브라우저들이 어떤 엔진을 쓸까요?
-  * 모바일 시대 이후, 최근에 출시된 브라우저들은 어떤 특징을 가지고 있을까요?
-* HTML 문서는 어떤 구조로 이루어져 있나요?
-  * `<head>`에 자주 들어가는 엘리먼트들은 어떤 것이 있고, 어떤 역할을 할까요?
-  * 시맨틱 태그는 무엇일까요?
-    * 시맨틱 엘리먼트를 사용하면 어떤 점이 좋을까요?
-    * `<section>`과 `<div>`, `<header>`, `<footer>`, `<article>` 엘리먼트의 차이점은 무엇인가요?
-  * 블록 레벨 엘리먼트와 인라인 엘리먼트는 어떤 차이가 있을까요?
+
+- HTML 표준의 역사는 어떻게 될까요?
+  - HTML 표준을 지키는 것은 왜 중요할까요?
+    - HTML의 표준이 지켜질 때 누구나 정보에 차별없이 접근이 가능합니다. (서로 다른 브라우저를 사용하거나, 장애가 있는 사용자가 웹에 접근하는 상황 등).
+    - HTML의 규격화된 표준이 존재하면 웹 컨텐츠 생산자들의 생산성이 증가합니다.
+  - XHTML 2.0은 왜 세상에 나오지 못하게 되었을까요?
+    - XHTML(EXtensible HyperText Markup Language)은 XML과 HTML을 합성한 언어로 더 확장된 태그들과 엄격한 문법을 가지고 있습니다. HTML에 비해 문법이 엄격해서 사용자들이 습득하기에 쉽지 않아 점차 외면받게 되었습니다.
+  - HTML5 표준은 어떤 과정을 통해 정해질까요?
+    - W3C (World Wide Web Consortium)의 정기적인 컨소시엄을 통해 지난 10년간 약 80여개의 권고안을 발표했습니다. 또한 웹에 관하여 토론할 수 있는 열린 포럼과 심포지엄을 통해 차기 표준안을 지속적으로 제정하고 있습니다.
+- 브라우저의 역사는 어떻게 될까요?
+  - Internet Explorer가 브라우저 시장을 독점하면서 어떤 문제가 일어났고, 이 문제는 어떻게 해결되었을까요?
+    - 넷스케이프 네비케이터와 경쟁하던 인터넷 익스플로러는 2008년 말까지 70%에 육박하는 점유율을 기록했습니다. 인터넷 익스플로러가 사실상 시장을 독점하게 되면서 인터넷 익스플로러의 기술 발전이 느리고, 웹 표준을 따르지 않아 IE만을 위한 문법에 맞게 웹을 제작해야 하거나, Active X로 인해 호환성이 떨어지는 등 다양한 문제가 발생했습니다.
+  - 현재 시점에 브라우저별 점유율은 어떻게 될까요? 이 브라우저별 점유율을 알아보는 것은 왜 중요할까요?
+    - 2021-2022 유럽 기준 데스크톱 브라우저의 시장 점유율은 크롬이 약 60%로 가장 높고, 엣지, 파이어폭스, 사파리, 웨일, 오페라 등이 그 뒤를 잇고 있습니다. 브라우저 점유율을 통해 이용자가 가장 선호하는 브라우저를 알 수 있고 웹을 제작할 때 도움을 얻을 수 있습니다.
+  - 브라우저 엔진(렌더링 엔진)이란 무엇일까요? 어떤 브라우저들이 어떤 엔진을 쓸까요?
+    - 브라우저에서 렌더링 엔진은 HTML과 CSS를 통해 화면을 그리는 역할을 수행합니다. 모질라 재단에서 만든 게코(Gecko), 크롬과 오페라가 탑재 중인 블링크(Blink), 사파리에 쓰이는 웹킷(Webkit) 등이 있습니다.
+  - 모바일 시대 이후, 최근에 출시된 브라우저들은 어떤 특징을 가지고 있을까요?
+- HTML 문서는 어떤 구조로 이루어져 있나요?
+  - `<head>`에 자주 들어가는 엘리먼트들은 어떤 것이 있고, 어떤 역할을 할까요?
+    - 페이지 제목을 나타내는 `<title>`
+    - 인코딩 등의 메타데이터를 설정하는 `<meta>`
+    - 아이콘 레퍼런스 링크를 위한 `<link>`
+  - 시맨틱 태그는 무엇일까요?
+    - 시맨틱 엘리먼트를 사용하면 어떤 점이 좋을까요?
+      - 시멘틱 엘리먼트는 의미론적입니다. 예를 들어 제목을 만들때 `<div>` 태그에 스타일을 입힐 수도 있겠지만 `<h1>` 태그를 사용하면 HTML이 보다 의미론적이고 웹 접근성이 좋습니다.
+    - `<section>`과 `<div>`, `<header>`, `<footer>`, `<article>` 엘리먼트의 차이점은 무엇인가요?
+  - 블록 레벨 엘리먼트와 인라인 엘리먼트는 어떤 차이가 있을까요?
+    - 블록 레벨 엘리먼트
+      - 브라우저는 블록 레벨 요소의 앞과 뒤를 개행해서 그립니다.
+      - `<body>` 요소 안에서만 사용할 수 있습니다.
+      - 다른 인라인 엘리먼트와 블록 레벨 엘리먼트를 포함할 수 있습니다.
+      - 새로운 줄에서 시작합니다.
+    - 인라인 레벨 엘리먼트
+      - 데이터와 다른 인라인 엘리먼트만 포함할 수 있으며, 블록 레벨 엘리먼트는 포함할 수 없습니다.
+      - 새로운 줄에서 시작하지 않습니다.
 
 ## Quest
-* [이 화면](screen.png)의 정보를 HTML 문서로 표현해 보세요. 다만 CSS를 전혀 사용하지 않고, 문서의 구조가 어떻게 되어 있는지를 파악하여 구현해 보세요.
-  * [CSS Naked Day](https://css-naked-day.github.io/)는 매년 4월 9일에 CSS 없는 웹 페이지를 공개하여 내용과 마크업에 집중한 HTML 구조의 중요성을 강조하는 행사입니다.
-* 폴더에 있는 `skeleton.html` 파일을 바탕으로 작업해 보시면 됩니다.
-  * 화면을 구성하는 큰 요소들을 어떻게 처리하면 좋을까요?
-  * HTML 문서상에서 같은 층위에 비슷한 요소들이 반복될 때는 어떤 식으로 처리하는 것이 좋을까요?
+
+- [이 화면](screen.png)의 정보를 HTML 문서로 표현해 보세요. 다만 CSS를 전혀 사용하지 않고, 문서의 구조가 어떻게 되어 있는지를 파악하여 구현해 보세요.
+  - [CSS Naked Day](https://css-naked-day.github.io/)는 매년 4월 9일에 CSS 없는 웹 페이지를 공개하여 내용과 마크업에 집중한 HTML 구조의 중요성을 강조하는 행사입니다.
+- 폴더에 있는 `skeleton.html` 파일을 바탕으로 작업해 보시면 됩니다.
+  - 화면을 구성하는 큰 요소들을 어떻게 처리하면 좋을까요?
+  - HTML 문서상에서 같은 층위에 비슷한 요소들이 반복될 때는 어떤 식으로 처리하는 것이 좋을까요?
 
 ## Advanced
-* XML은 어떤 표준일까요? 어떤 식으로 발전해 왔을까요?
-* YML, Markdown 등 다른 마크업 언어들은 어떤 특징을 가지고 있고, 어떤 용도로 쓰일까요?
+
+- XML은 어떤 표준일까요? 어떤 식으로 발전해 왔을까요?
+- YML, Markdown 등 다른 마크업 언어들은 어떤 특징을 가지고 있고, 어떤 용도로 쓰일까요?

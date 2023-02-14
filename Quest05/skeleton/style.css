@@ -1,3 +1,48 @@
 * {
 	/* TODO: 필요한 CSS를 채워넣어 보세요! */
 }
+
+body {
+	width :100vw;
+	height: 100vh;
+	text-align: center;
+}
+
+button {
+	cursor: pointer;
+}
+
+.notepad {
+	width: 80%;
+	height: 80%;
+}
+
+.input-field {
+	width: 100%;
+	height: 100%;
+}
+
+.button-group {
+	text-align: right;
+}
+
+.file-navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.filename {
+	float: left;
+	display: block;
+	background-color: gray;
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.filename:hover {
+	background-color: #555;
+	color: white
+}

@@ -1,20 +1,169 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<!-- TODO: 또 무엇이 필요할까요? -->
-	</head>
-	<body>
-		<header>
-			<!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
-		</header>
 
-		<section class="main">
-			<!-- TODO: main은 어떤 식으로 나눌 수 있을까요? -->
-		</section>
+<head>
+	<meta charset="UTF-8">
+	<!-- TODO: 또 무엇이 필요할까요? -->
+	<!-- cdn을 추가하는 것보다 npm package로 다운로드 한 뒤 웹팩 번들링을 하는 것이 더 좋은 방법일 것 같습니다. -->
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	<link rel='stylesheet'
+		href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+	<link rel='stylesheet'
+		href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	<link rel="stylesheet" href="./style.css">
+	<!-- <style>
 
-		<footer>
-			<!-- TODO: 하단의 여러 가지 링크들은 어떻게 처리하면 좋을까요? -->
-		</footer>
-	</body>
+	</style> -->
+</head>
+
+<body>
+	<header>
+		<!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
+		<button>
+			<i class="fi fi-br-menu-burger"></i>
+		</button>
+		<nav>
+			<button>QR 체크인</button>
+			<button>N Pay</button>
+			<button>
+				<i class="fi fi-rr-box"></i>
+			</button>
+		</nav>
+	</header>
+
+	<!-- TODO: main은 어떤 식으로 나눌 수 있을까요? -->
+	<main>
+		<div class="main">
+			<section>
+				<img src="https://logoproject.naver.com/img/img_story_renewal.png">
+			</section>
+			<form>
+				<div class="search-bar">
+					<input placeholder="검색어를 입력해주세요."></input>
+					<nav>
+						<button>
+							<i class="fi fi-rr-microphone"></i>
+						</button>
+						<button>
+							<i class="fi fi-rr-camera"></i>
+						</button>
+						<button>
+							<i class="fi fi-rr-marker"></i>
+						</button>
+					</nav>
+				</div>
+			</form>
+
+
+
+			<section class="contents contents-1">
+				<div class="icon-button">
+					<button>
+						<i class="fi fi-rr-duplicate"></i>
+					</button>
+				</div>
+				<div class="icon-button">
+					<button>
+						<i class="fi fi-rr-chart-line-up"></i>
+					</button>
+				</div>
+				<div class="icon-button">
+					<button>
+						<i class="fi fi-rs-star"></i>
+					</button>
+				</div>
+				<div class="icon-button">
+					<button>
+						<i class="fi fi-rs-heart"></i>
+					</button>
+				</div>
+				<div class="icon-button">
+					<button>
+						<i class="fi fi-rr-envelope"></i>
+					</button>
+				</div>
+				<div class="icon-button">
+					<button>
+						<i class="fi fi-rr-mug-hot-alt"></i>
+					</button>
+				</div>
+				<div class="icon-button">
+					<button>
+						<i class="fi fi-ts-blog-pencil"></i>
+					</button>
+				</div>
+				<div class="icon-button">
+					<button>
+						<i class="fi fi-rr-menu-dots"></i>
+					</button>
+				</div>
+			</section>
+
+
+
+			<div class="contents contents-2">
+				<div class="simple-weather">날씨</div>
+				<div class="naver-now">지금 방송 중</div>
+			</div>
+
+			<div class="contents contents-3">
+				<div class="weather">
+					날씨
+				</div>
+			</div>
+
+			<div class="contents contents-4">
+				<div class="covid">코로나19</div>
+				<div class="covid-fact-check">코로나19 팩트체크</div>
+			</div>
+
+			<div class="contents contents-5">
+				<div class="anniversary">기념일</div>
+			</div>
+
+			<div class="contents contents-6">
+				<h4>인기 주제 판을 확인해 보세요!</h4>
+				<div class="button-grid">
+
+					<button>영화판</button>
+					<button>뿜판</button>
+
+					<button>웹툰판</button>
+					<button>경제M판</button>
+				</div>
+			</div>
+		</div>
+
+
+	</main>
+
+
+	<footer>
+		<!-- TODO: 하단의 여러 가지 링크들은 어떻게 처리하면 좋을까요? -->
+		<nav>
+			<button>로그인</button>
+			<button>전체서비스</button>
+			<button>PC버전</button>
+		</nav>
+		<nav>
+			<button>이용약관</button>
+			<button>개인정보처리방침</button>
+			<button>고객센터</button>
+		</nav>
+		<p>
+			<img src="https://logoproject.naver.com/img/img_story_renewal.png">
+		</p>
+	</footer>
+</body>
+
 </html>
