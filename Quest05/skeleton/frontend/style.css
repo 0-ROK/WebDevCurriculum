@@ -42,6 +42,10 @@ button {
 	cursor: pointer;
 }
 
+.selected-file {
+	background-color: darkolivegreen;
+}
+
 .filename:hover {
 	background-color: #555;
 	color: white
